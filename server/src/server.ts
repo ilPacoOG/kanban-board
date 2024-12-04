@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 import express from 'express';
-import routes from './routes/index.js';
+import routes from '../src/seeds/routes/index.js';
 import { sequelize } from './models/index.js';
 
 const app = express();
